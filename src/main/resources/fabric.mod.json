@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "strangemod",
+  "version": "${version}",
+  "name": "奇怪的模组",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Idealwindow/StrangeMod"
+  },
+  "license": "BSD-2-Clause-FreeBSD",
+  "icon": "assets/strangemod/mod-icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.idealwindow.strangemod.client.StrangeModClient"
+    ],
+    "main": [
+      "com.github.idealwindow.strangemod.StrangeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
